@@ -2,10 +2,8 @@
 This  is the scraper
 '''
 
-
 import requests
 from bs4 import BeautifulSoup
-
 
 URL = "https://realpython.github.io/fake-jobs/"
 page = requests.get(URL)
@@ -30,7 +28,6 @@ for job_element in job_elements:
     ##".text" removes all the html tags when print and ".strip" removes all the unnecessary whitespace
     print()
 '''
-
 
 python_jobs = results.find_all("h2", string=lambda text: "python" in text.lower())
 python_job_elements = [

@@ -2,23 +2,13 @@ This is a txt file to describe slide info
 
 
 
-0-Will be scraping Joe's website <<https://realpython.github.io/fake-jobs/>>
+0-Will be scraping fake job website <<https://realpython.github.io/fake-jobs/>>
 
 - whoami slides
 - slide on python environments
 - slide on requests library
 - slide on beautiful soup
 - 	
--
--
--
--
--
--
--
--
--
--
 -
 -
 -tutorial-env\Scripts\activate.bat
